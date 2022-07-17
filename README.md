@@ -23,7 +23,7 @@ El modulo de Wifi es especializado en el arte del pentesting llamado Steal Wifi 
 
 ## Arduino Interpretación
 <img align="left" src="https://raw.githubusercontent.com/mrx04programmer/Arpha/master/img/arduino.png" width="350">
-<div align="right">
+<div>
 
 1. Al oprimir el botón , envíara el código a compilarlo 
 2. Recibirá las ordenes y las leerá
