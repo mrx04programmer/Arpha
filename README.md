@@ -1,7 +1,7 @@
 
 # Arpha - Mrx04programmer
 <center>
-<img src="https://raw.githubusercontent.com/mrx04programmer/Arpha/master/ico.png" width="250" align="right">
+<img src="https://raw.githubusercontent.com/mrx04programmer/Arpha/master/ico.png" width="250" align="right"><br>
 </center>
 Pack de herramientas para pruebas de penetración en sistemas por medio de Arduino UNO.
 
