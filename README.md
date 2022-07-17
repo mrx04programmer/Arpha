@@ -10,7 +10,7 @@ Pack de herramientas para pruebas de penetración en sistemas por medio de Ardui
 **Arpha**
 Basado en extraer información organizada y silenciosamente , haciendose pasar por el teclado del dispositivo.
 En la linea 28 del Archivo *Arpha.ino* se configura la linea de comando a correr:
-<br>![COMMAND](https://raw.githubusercontent.com/mrx04programmer/Arpha/master/img/command.png)
+<br><br><br>![COMMAND](https://raw.githubusercontent.com/mrx04programmer/Arpha/master/img/command.png)
 Y en el campo donde se encuentra **'ATTACKER_IP_SERVER'** es donde se debe cambiar por la ip del servidor a enviar la petición y posteriormente su puerto especifico.
 
 **MouseController**
