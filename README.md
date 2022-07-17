@@ -15,7 +15,7 @@ Y en el campo donde se encuentra **'ATTACKER_IP_SERVER'** es donde se debe cambi
 
 **MouseController**
 La idea de MouseController es poder crear un Mouse virtual por medio del arduino conectado, en el método **loop** del archivo, se encuentra su configuración al gusto propio. Por defecto esta en *0*
-![LOOP](https://raw.githubusercontent.com/mrx04programmer/Arpha/master/img/loop.png)
+![LOOP](https://raw.githubusercontent.com/mrx04programmer/Arpha/master/img/loop.png)<br>
 En la función de Mouse.move, se establecen las coordenadas a mover el ratón o mouse. Para ello se necesita saber que el primer dato es el valor de la coordenada **x**, es decir horizontal, luego separado de una coma(,) se asgina el valor de **y**, es decir vertical y separado de una coma(,) se asigna el valor al mover la rueda del ratón o mouse.
 
 **Wifi**
